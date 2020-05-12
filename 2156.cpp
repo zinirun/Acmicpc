@@ -8,7 +8,7 @@ int main(){
 	int n;
 	scanf("%d", &n);
 	for(int i=1; i<=n; i++)
-		scanf("%d", &grape[i]); 
+		scanf("%d", &grape[i]);
 			
 	dp[1] = grape[1];
 	dp[2] = grape[1] + grape[2];
